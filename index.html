@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Rohit Sarje - Portfolio</title>
+        <link rel="stylesheet" href="styles.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" integrity="sha512-o0jrlXi4rIuQ3PgHriidKNpJpo2gNXV16C5nbkNmmqK3ge10m+jGPPQe6DDC4oQf7mJwvgxP5FmFRGxOaR9gXw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+        <link href="https://unpkg.com/aos@2.3.4/dist/aos.css" rel="stylesheet">
+      </head>
+<body>
+
+    <!-- Navigation -->
+    <nav>
+        <ul>
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about">About Me</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </nav>
+
+    <!-- Home Section -->
+    <section id="home" class="section">
+        <div class="container">
+            <h1>Rohit Sarje</h1>
+            <div class="contact-info">
+                <p>
+                    <i class="fa fa-envelope"></i> <a href="mailto:rohits@gmail.com">rohitsarje@gmail.com</a>
+                    <i class="fab fa-linkedin"></i> <a href="https://www.linkedin.com/in/rohit-sarje-081385314/" target="_blank">LinkedIn</a>
+                    <i class="fab fa-github"></i> <a href="https://github.com/rohitt-s" target="_blank">GitHub</a>
+                </p>
+            </div>
+            <p class="headline">Full Stack Developer | Building Tomorrow's Solutions Today</p>
+            
+            <div class="skills-summary">
+                <h2>Skills</h2>
+                <p>Data Structures and Algorithms, Operating Systems, Computer Networks, OOPs</p>
+                <p>Languages: C++, JavaScript, SQL</p>
+                <p>Libraries/Frameworks: React.js, Node.js, Express.js</p>
+                <p>Database: MongoDB, MySQL</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Me Section -->
+    <section id="about" class="section">
+        <div class="container">
+            <h2>About Me</h2>
+            <p>Hello, I'm Rohit Sarje, a passionate Full Stack Developer based in Pune. I hold a Bachelor of Technology degree in Information Technology from Pimpri Chinchwad College Of Engineering, Pune, with a stellar CGPA of 8.97. My academic journey has equipped me with a solid foundation in software development, data structures, algorithms, and web technologies.</p>
+            <p>During my academic tenure, I actively participated as a Competitive Programming Executive at CodeChef PCCOE Chapter, organizing online sessions, authoring articles, and creating video solutions and editorials for coding competition questions. This role honed my problem-solving skills and deepened my understanding of algorithmic complexities.</p>
+            <p>Passionate about building scalable web applications, I have hands-on experience with technologies such as JavaScript, Node.js, React.js, MongoDB, and Express.js. I enjoy tackling complex challenges and crafting elegant solutions that deliver seamless user experiences.</p>
+            <h3>Education</h3>
+            <p>Bachelor of Technology - Information Technology<br>
+            Pimpri Chinchwad College Of Engineering, Pune<br>
+            CGPA: 8.97</p>
+            <h3>Position of Responsibility</h3>
+            <p>Competitive Programming Executive<br>
+            CodeChef PCCOE Chapter<br>
+            Sep 2022 - Oct 2023</p>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="section">
+        <div class="container">
+            <h2>Projects</h2>
+
+            <!-- Project 1 -->
+            <div class="project">
+                <h3>VehiKart: Vehicle Reselling Website</h3>
+                <p>Built a full-stack web application for users to list used vehicles for sale, request test drives, and get expert inspections and reviews.</p>
+                <p>Technologies used: MongoDB, Express.js, React.js, Node.js</p>
+                <a href="https://github.com/rohitsarje17/VehiKart" target="_blank">View Project</a>
+            </div>
+
+            <!-- Project 2 -->
+            <div class="project">
+                <h3>OnlineConnect: Video Conferencing Platform</h3>
+                <p>Developed a conferencing web application utilizing WebRTC for peer-to-peer communication, enabling real-time audio and video streaming between clients in the browser.</p>
+                <p>Technologies used: WebRTC, Socket.IO, Node.js, Express.js</p>
+                <a href="https://github.com/rohitsarje17/OnlineConnect" target="_blank">View Project</a>
+            </div>
+
+            <!-- Project 3 -->
+            <div class="project">
+                <h3>IPL Squad Builder</h3>
+                <p>Developed an IPL squad builder application that recommends an IPL squad from a pool of auctioned players by considering predicted prices and performances.</p>
+                <p>Technologies used: Machine Learning (Random Forest), Linear Programming</p>
+                <a href="https://github.com/rohitsarje17/IPL-Squad-Builder" target="_blank">View Project</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="section">
+        <div class="container">
+            <h2>Contact</h2>
+            <form action="send-email.php" method="POST">
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" required>
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+                <label for="message">Message:</label>
+                <textarea id="message" name="message" rows="4" required></textarea>
+                <button type="submit">Send Message</button>
+            </form>
+            <div class="social-links">
+                <a href="https://www.linkedin.com/in/rohit-sarje-081385314/" target="_blank"><i class="fab fa-linkedin"></i></a>
+                <a href="https://github.com/rohitt-s" target="_blank"><i class="fab fa-github"></i></a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <p>&copy; 2024 Rohit Sarje. All rights reserved.</p>
+    </footer>
+
+    <script src="script.js"></script> <!-- Optional JavaScript file -->
+
+</body>
+</html>
+<script>
+    AOS.init();
+  </script>
